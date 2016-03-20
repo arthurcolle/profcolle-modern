@@ -17,6 +17,14 @@ defmodule Profcolle.Router do
     pipe_through :browser # Use the default browser stack
 
     get "/", PageController, :index
+    get "/mission", PageController, :mission
+    get "/topics", PageController, :topics
+    get "/biographical_highlights", PageController, :biographical_highlights
+    get "/personal_education", PageController, :personal_education
+    get "/teaching_experience", PageController, :teaching_experience
+    get "/rates", PageController, :rates
+    get "/endorsements", PageController, :endorsements
+    get "/contact", PageController, :contact
   end
 
   # Other scopes may use custom stacks.
