@@ -10,11 +10,12 @@ defmodule Profcolle.PageController do
   def topics(conn, _params) do
     render conn, "topics.html"
   end
-  def biographical_highlights(conn, _params) do
-    render conn, "biographical_highlights.html"
+
+  def biography(conn, _params) do
+    render conn, "biography.html"
   end
-  def personal_education(conn, _params) do
-    render conn, "personal_education.html"
+  def education(conn, _params) do
+    render conn, "education.html"
   end
   def teaching_experience(conn, _params) do
     render conn, "teaching_experience.html"

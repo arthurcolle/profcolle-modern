@@ -19,10 +19,10 @@ defmodule Profcolle.Router do
     get "/", PageController, :index
     get "/mission", PageController, :mission
     get "/topics", PageController, :topics
-    get "/biographical_highlights", PageController, :biographical_highlights
-    get "/personal_education", PageController, :personal_education
+    get "/biography", PageController, :biography
+    get "/education", PageController, :education
     get "/teaching_experience", PageController, :teaching_experience
-    get "/rates", PageController, :rates
+    # get "/rates", PageController, :rates
     get "/endorsements", PageController, :endorsements
     get "/contact", PageController, :contact
   end

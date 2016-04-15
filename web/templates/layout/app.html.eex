@@ -1,6 +1,3 @@
-
-
-
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -26,10 +23,10 @@
             <li class="active"><a href="/">Home</a></li>
             <li><a href="/mission">Mission</a></li>
             <li><a href="/topics">Topics</a></li>
-            <li><a href="/biographical_highlights">Biographical Highlights</a></li>
-            <li><a href="/personal_education">Personal Education</a></li>
+            <li><a href="/biography">Biographical Highlights</a></li>
+            <li><a href="/education">My Education</a></li>
             <li><a href="/teaching_experience">Teaching Experience</a></li>
-            <li><a href="/rates">Rates</a></li>
+            <%# <li><a href="/rates">Rates</a></li> %>
             <li><a href="/endorsements">Endorsements</a></li>
             <li><a href="/contact"><b>Contact</b></a></li>
           </ul>
@@ -40,7 +37,7 @@
 
       <!-- Site footer -->
       <footer class="footer">
-        <p>&copy; 2015 Company, Inc.</p>
+        <p>&copy; 2015 Ronald Coll&eacute;</p>
       </footer>
 
     </div> <!-- /container -->
