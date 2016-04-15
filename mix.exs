@@ -19,7 +19,7 @@ defmodule Profcolle.Mixfile do
   def application do
     [mod: {Profcolle, []},
      applications: [:phoenix, :phoenix_html, :cowboy, :logger,
-                    :phoenix_ecto, :postgrex]]  
+                    :phoenix_ecto, :postgrex, :phoenix_live_reload]]  
   end
 
   # Specifies which paths to compile per environment.
