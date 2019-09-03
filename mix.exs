@@ -18,8 +18,7 @@ defmodule Profcolle.Mixfile do
   # Type `mix help compile.app` for more information.
   def application do
     [mod: {Profcolle, []},
-     applications: [:phoenix, :phoenix_html, :cowboy, :logger,
-                    :phoenix_ecto, :postgrex, :phoenix_live_reload]]  
+     applications: [:phoenix, :phoenix_html, :cowboy, :logger, :phoenix_live_reload]]  
   end
 
   # Specifies which paths to compile per environment.
@@ -30,13 +29,12 @@ defmodule Profcolle.Mixfile do
   #
   # Type `mix help deps` for examples and options.
   defp deps do
-    [{:phoenix, "~> 1.0.3"},
-     {:phoenix_ecto, "~> 1.1"},
-     {:postgrex, ">= 0.0.0"},
+    [{:phoenix, "~> 1.3.2"},
+     {:phoenix_ecto, "~> 2.0"},
+     {:postgrex, "~> 0.11"},
      {:phoenix_html, "~> 2.1"},
      {:phoenix_live_reload, "~> 1.0", only: :dev},
      {:cowboy, "~> 1.0"},
-     {:exrm, "~> 1.0"}
    ]
   end
 
